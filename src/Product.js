@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link, useHistory } from "react-router-dom";
 export default function Product(props) {
+  ////helllloooooo
   const removeProduct = async (id) => {
     try {
       await fetch("https://6153c7069935230017557055.mockapi.io/users/" + id, {
